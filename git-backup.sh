@@ -1,6 +1,8 @@
 #!/bin/bash
-git config --global user.email "BJGarcia@gmail.com"
-git config --global user.name "Brian"
+ssh-keygen -t rsa -b 4096 -C "BJGarcia@gmail.com"
+
+#git config --global user.email "BJGarcia@gmail.com"
+#git config --global user.name "Brian"
 
 cd ~
 git init .
